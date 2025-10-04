@@ -1,0 +1,118 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #0f0f1a; /* dark base */
+  background-image: 
+    linear-gradient(rgba(148, 8, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 3, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: center;
+}
+nav{
+ @apply grid grid-cols-2 pt-8
+  lg:mr-30 lg:ml-30
+  mr-5 ml-5;
+  animation: slide-down 1s ease-out;
+}
+nav ul{
+ @apply hidden xl:flex
+}
+
+section{
+  @apply grid grid-cols-1 lg:grid-cols-2 h-[80vh]
+    items-center justify-center
+    lg:mr-30 lg:ml-30
+    mr-5 ml-5
+}
+.hero-info{
+  @apply col-span-1
+}
+.hero-info p:nth-child(1){
+  @apply z-10 lg:text-4xl font-bold mt-1 mb-1 text-white;
+  opacity: 0;
+  animation: fade-in-right 1s ease-out forwards;
+  animation-delay: 0s;
+
+}
+.hero-info p:nth-child(2){
+  @apply z-10 text-6xl lg:text-8xl font-bold mt-1 mb-1 text-purple-700;
+  opacity: 0;
+    animation: fade-in-right 1s ease-out forwards;
+    animation-delay: .3s;
+}
+.hero-info p:nth-child(3){
+  @apply overflow-hidden whitespace-nowrap  inline-block text-white lg:text-4xl md:text-3xl text-xl mt-1 mb-1 ; 
+    width: 0; /* same as text length */
+    animation: typing 3s steps(27) forwards, blink .5s step-end infinite alternate;
+    animation-delay: .8s,.8s;
+}
+.cv-button{
+  @apply z-10 p-5 pl-10 pr-10 font-bold text-white rounded-md bg-purple-700 lg:mt-2 lg:mb-3 opacity-0 w-full lg:w-auto;
+  animation: fade-in-right 1s ease-in-out forwards;
+    animation-delay: .4s;
+}
+.social-links{
+  @apply text-center lg:text-left
+
+  
+}
+.social-links a{
+  animation: fade-in-up 1s ease-in-out forwards;
+  animation-delay: 1s;
+  background-color: rgba(33, 33, 33, 0.346);
+  border-color: #202020;
+  @apply mr-10
+  p-3
+  rounded-2xl
+  text-purple-700
+  border
+  opacity-0
+}
+
+  @keyframes typing {
+    from { width: 0;}
+    to { width: 28ch } 
+  }
+
+  @keyframes blink {
+    
+    50% { border-right: 2px solid white;
+    }
+  }
+
+  @keyframes fade-in-right{
+    0%{
+      opacity: 0%;
+      transform: translateX(-30px);
+    }
+    100%{
+      opacity: 100%;
+      transform: translateX(0px);
+    }
+    
+  }
+  
+  @keyframes fade-in-up{
+    0%{
+      opacity: 0%;
+     transform: translateY(10px);
+    }
+    100%{
+      opacity: 100%;
+       transform: translateY(0px);
+    }
+    
+  }
+
+
+  @keyframes slide-down{
+    0%{
+      opacity: 0%;
+      transform: translateY(-10px);
+    }
+    100%{
+      opacity: 100%;
+      transform: translateX(0px);
+    }
+  }
