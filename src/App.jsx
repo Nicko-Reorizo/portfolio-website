@@ -3,8 +3,10 @@ import Hero from './Hero.jsx'
 function App() {
   return (
    <>
+
    <Header/>
    <Hero Logged = {true}/>
+
    </>
   
   );

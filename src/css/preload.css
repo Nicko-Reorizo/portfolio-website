@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+
+#preloader{
+    background-color: rgb(0, 0, 0);
+    width:100vw;
+    height: 100vh;
+}
+
+.spinner {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+}
+
+.spinner::before,
+.spinner::after {
+   content: '';
+   border-radius: 50%;
+   position: fixed;
+   transform: translate(-50%, -50%);
+}
+
+.spinner::before {
+   width: 15.7px;
+   height: 15.7px;
+   background: #474bff;
+}
+
+.spinner::after {
+   width: 56px;
+   height: 56px;
+   animation: spinner-y7ej37 1s infinite linear;
+   border: 11.2px solid #474bff;
+   border-left-color: transparent;
+   border-right-color: transparent;
+}
+
+@keyframes spinner-y7ej37 {
+   to {
+      transform: translate(-50%, -50%) rotate(360deg);
+   }
+}
+
+

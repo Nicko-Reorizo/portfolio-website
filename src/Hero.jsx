@@ -1,5 +1,4 @@
-import './index.css'
-
+import './css/Hero.css'
 function Hero(props) {
  
     const LoggedIn = 
@@ -23,8 +22,8 @@ function Hero(props) {
         </div>
        </div>
 
-       <div className="col-span-1  lg:mr-20 hidden lg:block">
-        <img src="./public/testing%20picture.PNG" alt="Profile Picture" className="w-150 h-auto ml-20"/>
+       <div className="col-span-1 lg:mr-20 hidden lg:block">
+        <img id='profile-picture' src="./public/testing%20picture.PNG" alt="Profile Picture" className="w-150 h-auto ml-20"/>
        </div>
 
        <div className=" top-0 w-50 hidden lg:fixed h-100 blur-3xl -z-0 opacity-30 rounded-full  bg-purple-700"></div>

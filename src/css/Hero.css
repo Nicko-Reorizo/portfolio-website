@@ -1,14 +1,5 @@
 @import "tailwindcss";
-body {
-  margin: 0;
-  height: 100vh;
-  background-color: #0f0f1a; /* dark base */
-  background-image: 
-    linear-gradient(rgba(148, 8, 255, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(125, 3, 255, 0.1) 1px, transparent 1px);
-  background-size: 50px 50px;
-  background-position: center;
-}
+@import "./animations.css";
 nav{
  @apply grid grid-cols-2 pt-8
   lg:mr-30 lg:ml-30
@@ -27,22 +18,23 @@ section{
 }
 .hero-info{
   @apply col-span-1
+  text-center lg:text-left
 }
 .hero-info p:nth-child(1){
-  @apply z-10 lg:text-4xl font-bold mt-1 mb-1 text-white;
+  @apply z-10 text-3xl lg:text-4xl font-bold mt-1 lg:mb-1   text-white;
   opacity: 0;
   animation: fade-in-right 1s ease-out forwards;
   animation-delay: 0s;
 
 }
 .hero-info p:nth-child(2){
-  @apply z-10 text-6xl lg:text-8xl font-bold mt-1 mb-1 text-purple-700;
+  @apply z-10 text-5xl lg:text-8xl font-bold mt-1 mb-1 text-purple-700;
   opacity: 0;
     animation: fade-in-right 1s ease-out forwards;
     animation-delay: .3s;
 }
 .hero-info p:nth-child(3){
-  @apply overflow-hidden whitespace-nowrap  inline-block text-white lg:text-4xl md:text-3xl text-xl mt-1 mb-1 ; 
+  @apply overflow-hidden whitespace-nowrap inline-block text-white lg:text-4xl md:text-3xl text-xl mt-1 mb-1 text-center; 
     width: 0; /* same as text length */
     animation: typing 3s steps(27) forwards, blink .5s step-end infinite alternate;
     animation-delay: .8s,.8s;
@@ -70,49 +62,10 @@ section{
   opacity-0
 }
 
-  @keyframes typing {
-    from { width: 0;}
-    to { width: 28ch } 
-  }
+#profile-picture{
+  opacity: 0;
+ animation: fade-in 1s ease-in-out forwards;
+ 
+}
 
-  @keyframes blink {
-    
-    50% { border-right: 2px solid white;
-    }
-  }
-
-  @keyframes fade-in-right{
-    0%{
-      opacity: 0%;
-      transform: translateX(-30px);
-    }
-    100%{
-      opacity: 100%;
-      transform: translateX(0px);
-    }
-    
-  }
   
-  @keyframes fade-in-up{
-    0%{
-      opacity: 0%;
-     transform: translateY(10px);
-    }
-    100%{
-      opacity: 100%;
-       transform: translateY(0px);
-    }
-    
-  }
-
-
-  @keyframes slide-down{
-    0%{
-      opacity: 0%;
-      transform: translateY(-10px);
-    }
-    100%{
-      opacity: 100%;
-      transform: translateX(0px);
-    }
-  }
