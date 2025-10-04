@@ -8,9 +8,9 @@ function Hero(props) {
        </div>
         <div className="hero-info">
             
-        <p>Hello, i’m</p>
-        <p>Nicko Reorizo</p>
-        <p>FRONT-END WEBSITE DEVELOPER</p>
+        <p className='inter-bold'>Hello, i’m</p>
+        <p className='montserrat-bold'>Nicko Reorizo</p>
+        <p className='montserrat-thin'>FRONT-END WEBSITE DEVELOPER</p>
         <p></p>
         <button className="cv-button">DOWNLOAD CV</button>
         <p></p>
