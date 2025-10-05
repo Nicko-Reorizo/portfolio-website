@@ -1,5 +1,5 @@
-import './css/Hero.css'
-
+import './css/Header.css'
+import './css/gradients.css'
 function Header() {
 
     return (
@@ -10,7 +10,7 @@ function Header() {
         <li><a href="">Skills</a></li>
         <li><a href="">Projects</a></li>
         <li><a href="">About me</a></li>
-        <li><a class="bg-purple-700 p-3 pl-10 pr-10 rounded-md font-bold" href="">Contact</a></li>
+        <li><a class=" p-3 pl-10 pr-10 rounded-md font-bold background-color" href="">Contact</a></li>
        </ul>
 
     </nav>

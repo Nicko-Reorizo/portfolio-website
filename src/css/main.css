@@ -9,5 +9,6 @@ body {
     linear-gradient(90deg, rgba(125, 3, 255, 0.1) 1px, transparent 1px);
   background-size: 50px 50px;
   background-position: center;
+  overflow-x: hidden;
 }
 

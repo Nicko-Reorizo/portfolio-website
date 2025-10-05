@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+@import './gradients.css';
+@import './fonts.css';
+.TechStack-Section{
+    @apply min-h-[100vh] w-[100vw] bg-[#0d0e0d]  
+    text-center
+    
+}
+.TechStack-Section > p:nth-child(1){
+@apply lg:text-6xl text-5xl pt-[10vh] text-white ;
+}
+.TechStack-Section > p:nth-child(2){
+    @apply text-white mt-5 mb-1 lg:text-lg text-sm pl-5 pr-5;
+}
+.p-animation{
+    opacity: 0;
+    transform:translateX(-100px);
+    transition: 500ms ease;
+}
+.p-animation.show{
+    opacity: 1;
+    transform:translateX(0px);
+}
+.card-section{
+      transform: translateX(-100px);
+    opacity: 0;
+    transition: 800ms ease;
+    @apply grid 2xl:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center justify-center 
+}
+.card {
+margin: 20px;
+ width: 350px;
+ height: 100px;
+ border-radius: 30px;
+ background: #1e1e1ed0;
+ box-shadow: 5px 5px #000000;
+ @apply grid grid-cols-3 col-span-1
+}
+.react{
+    @apply xl:col-span-4 md:col-span-2
+}
+.card-container-img{
+ width: 90px;
+ height: 100px;
+  @apply flex items-center justify-center ml-5 col-span-1
+}
+.card-container-text{
+ width: 260px;
+ height: 100px;
+  @apply flex items-center text-left ml-5 col-span-2   
+}
+.card-container-text h1{
+     display: block;
+@apply text-2xl 
+}
+.card-container-text span{
+      display: block;
+@apply text-sm text-[#f9f8f8bb]
+}
+.TechStack-Section img{
+    width: 70px;
+    height: auto;
+}
+
+.card-section.show{
+transform: translateX(0px);
+opacity:1;
+}
