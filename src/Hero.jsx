@@ -13,7 +13,7 @@ function Hero(props) {
             
         <p className='inter-bold'>Hello, i’m</p>
         <p className='montserrat-bold text-gradient'>Nicko Reorizo</p>
-        <p className='montserrat-thin '>FRONT-END WEBSITE DEVELOPER</p>
+        <p className='fira-code-regular'>FRONT-END WEBSITE DEVELOPER</p>
         <p></p>
         <button className="cv-button background-color">DOWNLOAD CV</button>
         <p></p>

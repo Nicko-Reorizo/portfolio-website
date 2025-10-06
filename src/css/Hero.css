@@ -31,7 +31,7 @@
     animation-delay: .3s;
 }
 .hero-info p:nth-child(3){
-  @apply overflow-hidden whitespace-nowrap inline-block text-white lg:text-4xl md:text-3xl text-xl mt-1 mb-1 text-center; 
+  @apply overflow-hidden whitespace-nowrap inline-block text-white lg:text-4xl md:text-3xl text-xl mt-1 mb-1 lg:text-left text-center; 
     width: 0; 
     animation: typing 3s steps(28) forwards, blink .5s step-end infinite alternate;
     animation-delay: .8s,.8s;
