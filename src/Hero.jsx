@@ -3,7 +3,7 @@ import './css/Hero.css'
 import './css/gradients.css'
 function Hero(props) {
  
-
+const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQKnNYWS1-GrztEBQRy&export=download';
     const Hero = 
         <section className='Hero-Section'>
              <div className="col-span-1  lg:hidden flex justify-center ">
@@ -11,11 +11,11 @@ function Hero(props) {
        </div>
         <div className="hero-info">
             
-        <p className='inter-bold'>Hello, i’m</p>
-        <p className='montserrat-bold text-gradient'>Nicko Reorizo</p>
+        <p className='poppins-bold'>Hello, i’m</p>
+        <p className='poppins-bold'>Nicko Reorizo</p>
         <p className='fira-code-regular'>FRONT-END WEBSITE DEVELOPER</p>
         <p></p>
-        <button className="cv-button background-color">DOWNLOAD CV</button>
+        <button className="cv-button background-color cursor-pointer" onClick={()=> window.location.href=cvlink}>DOWNLOAD CV</button>
         <p></p>
 
         <div className='social-links mt-5'>

@@ -8,7 +8,7 @@ const observer = new IntersectionObserver(entries =>{
     entries[0].target.classList.remove(className);
    }
 }, {
-   threshold: 0.3
+   threshold: 0.2
 });
 
 card.forEach(card=>observer.observe(card));

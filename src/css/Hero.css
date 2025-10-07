@@ -17,7 +17,7 @@
 }
 .hero-info p:nth-child(1){
  
-  @apply z-10 text-3xl lg:text-4xl mt-1 lg:mb-1   text-white;
+  @apply z-10 text-4xl lg:text-6xl mt-1 lg:mb-1   text-white;
   opacity: 0;
   animation: fade-in-right 1s ease-out forwards;
   animation-delay: 0s;
@@ -25,7 +25,7 @@
 }
 .hero-info p:nth-child(2){
   
-  @apply z-10 text-5xl lg:text-8xl mt-1 mb-1 text-purple-700;
+  @apply z-10 text-4xl lg:text-6xl mt-1 mb-1 text-purple-700;
   opacity: 0;
     animation: fade-in-right 1s ease-out forwards;
     animation-delay: .3s;

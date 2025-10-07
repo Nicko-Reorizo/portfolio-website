@@ -1,10 +1,24 @@
 @import 'tailwindcss';
+.navbar{
+  @apply sticky fixed
+}
 nav{
  @apply grid grid-cols-2 pt-8
   lg:mr-30 lg:ml-30
   mr-5 ml-5;
   animation: slide-down 1s ease-out;
+ ;
 }
 nav ul{
  @apply hidden xl:flex
+}
+
+.navbar.scrolled{
+  @apply bg-[#0b0b0b] sticky top-0 pb-8 z-50
+}
+
+
+.nav-text:hover{
+   border: 2px  solid  #9951ff;
+   border-width: 0px 0px 3px 0px;
 }
