@@ -31,12 +31,12 @@
     transform:translateX(0px);
 }
 .card-section{
-      transform: translateX(-100px);
-    opacity: 0;
-    transition: 800ms ease;
     @apply grid 2xl:grid-cols-4 md:grid-cols-2 xl:grid-cols-3 grid-cols-1 place-items-center justify-center mt-10 mb-50
 }
-.card {
+.card{
+    transition: 800ms ease;
+    opacity: 1;
+    transform: translateX(-100px);
     cursor:pointer;
 margin: 20px;
  width: 350px;
@@ -47,23 +47,7 @@ margin: 20px;
  transition: 300ms ease;
  @apply grid grid-cols-3 col-span-1 
 }
-.card-two {
-margin: 20px;
- width: 350px;
- height: 100px;
- border-radius: 30px;
- background: #1e1e1ed0;
- box-shadow: 5px 5px #000000;
- @apply grid grid-cols-3 col-span-1
-}.card-three  {
-margin: 20px;
- width: 350px;
- height: 100px;
- border-radius: 30px;
- background: #1e1e1ed0;
- box-shadow: 5px 5px #000000;
- @apply grid grid-cols-3 col-span-1
-}
+
 
 .react{
     @apply xl:col-span-4 md:col-span-2
@@ -91,21 +75,19 @@ margin: 20px;
     height: auto;
 }
 
-.card-section.show{
-transform: translateX(0px);
-opacity:1;
-}
+
 
 .skills-card-section{
-     transform: translateX(-100px);
-    transition: 800ms ease;
-    opacity: 0;
+    
     @apply grid lg:grid-cols-3 grid-cols-1 place-items-center pb-20 mt-10 
 }
 .skills-card-section .fa-solid{
     @apply text-5xl
 }
 .skills-card{
+     transform: translateX(-100px);
+    transition: 800ms ease;
+    opacity: 0;
 cursor:pointer;
 transition: 300ms ease;
 text-align: left;
@@ -117,10 +99,7 @@ margin: 20px;
  box-shadow: 5px 5px #000000;
  @apply grid col-span-1 pt-15 w-[350px] lg:w-[400px] h-[350px] lg:h-[350px]
 }
-.skills-card-section.show{
-    transform: translateX(0px);
-    opacity: 1;
-}
+
 .skills-card-content{
     @apply ml-10 mr-10
 }
@@ -141,3 +120,11 @@ margin: 20px;
     transform: scale(1.1);
 }
 
+.card.show{
+transform: translateX(0px);
+opacity:1;
+}
+.skills-card.show{
+transform: translateX(0px);
+opacity:1;
+}

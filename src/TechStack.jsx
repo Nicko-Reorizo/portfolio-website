@@ -5,10 +5,10 @@ import 'aos/dist/aos.css';
 function TechStack(){
 
  useEffect(()=>{
-        ScrollAnimation(".card-section", "show");
+        ScrollAnimation(".card", "show");
         ScrollAnimation(".p-animation", "show");
         ScrollAnimation(".p2-animation", "show");
-        ScrollAnimation(".skills-card-section", "show");
+        ScrollAnimation(".skills-card", "show");
     }
     ,[]);
 
@@ -16,6 +16,7 @@ function TechStack(){
     
     const TechStackSection =
     (<section id='TechStack-Section' className="TechStack-Section">
+        <div className='absolute mt-110 h-[200px] w-[200px] rounded-full blur-3xl opacity-25 bg-purple-500'>asdasd</div>
 <p className='inter-bold p-animation ts-header'>Tech <span className="text-gradient">Stack</span></p>
 <p className='inter-thin p-animation ts-subheader'>These are the languages, frameworks and libraries that I've learned and utilized by making personal projects</p>
 
