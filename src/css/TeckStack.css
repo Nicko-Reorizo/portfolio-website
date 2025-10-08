@@ -112,12 +112,12 @@ margin: 20px;
 .card:hover{
     box-shadow: 5px 5px 5px #9951ff;
     transition: 300ms ease;
-    transform: scale(1.1);
+   
 }
 .skills-card:hover{
     box-shadow: 5px 5px 5px #9951ff;
     transition: 300ms ease;
-    transform: scale(1.1);
+ 
 }
 
 .card.show{

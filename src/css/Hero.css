@@ -16,7 +16,6 @@
   mb-[20vh] lg:mb-[0vh]
 }
 .hero-info p:nth-child(1){
- 
   @apply z-10 text-4xl lg:text-6xl mt-1 lg:mb-1   text-white;
   opacity: 0;
   animation: fade-in-right 1s ease-out forwards;
@@ -60,7 +59,6 @@ color: transparent;
   @apply mr-10
   p-3
   rounded-2xl
-  
   border
   opacity-0
   
