@@ -31,21 +31,18 @@
     animation-delay: .3s;
 }
 .hero-info p:nth-child(3){
-  @apply overflow-hidden whitespace-nowrap inline-block text-white lg:text-4xl md:text-3xl text-xl mt-1 mb-1 lg:text-left text-center; 
+  @apply overflow-hidden whitespace-nowrap inline-block text-white lg:text-3xl md:text-2xl text-lg mt-1 mb-1 lg:text-left text-center; 
     width: 0; 
     animation: typing 3s steps(28) forwards, blink .5s step-end infinite alternate;
     animation-delay: .8s,.8s;
 }
 .cv-button{
-  @apply z-10 p-5 pl-10 pr-10 font-bold text-white rounded-md lg:mt-2 lg:mb-3 opacity-0 w-full lg:w-auto;
+  @apply z-10 p-5 pl-15 pr-15 font-bold  rounded-md lg:mt-2 lg:mb-3 opacity-0 w-full lg:w-auto ;
   animation: fade-in-right 1s ease-in-out forwards;
     animation-delay: .4s;
 }
 .social-links{
-  
-  @apply text-center lg:text-left
-
-  
+  @apply text-center lg:text-left flex justify-around lg:block
 }
 .social-links a{
 background: linear-gradient(267deg, #6900ff 0%, #9951ff 100%);
@@ -57,13 +54,12 @@ color: transparent;
   animation-delay: 1s;
   background-color: rgba(33, 33, 33, 0.346);
   border-color: #202020;
-  @apply mr-10
+  @apply 
   p-3
   rounded-2xl
-  
   border
   opacity-0
-  
+  lg:mr-10
 }
 
 #profile-picture{
@@ -72,5 +68,6 @@ color: transparent;
  @apply mb-30
  
 }
+
 
  

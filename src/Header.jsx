@@ -3,19 +3,23 @@ import './css/Header.css'
 import './css/gradients.css'
 function Header() {
 useEffect (()=> {
-    const navbar = document.querySelector(".navbar");
+     let lastScrollY = window.scrollY;
+    const navbar = document.getElementById("navbar");
 
-    window.addEventListener("scroll",()=> {
-        if(window.scrollY > 0){
-        navbar.classList.add("scrolled");
-        }
-        else{
-            navbar.classList.remove("scrolled");
-        }
-    })
+window.addEventListener('scroll', () => {
+  if (window.scrollY > lastScrollY) {
+   
+    navbar.style.top = '-110px';
+  } else {
+ 
+    navbar.style.top = '0';
+  }
+  lastScrollY = window.scrollY;
+});
+
 });
     return (
-    <div className="navbar">
+    <div className="navbar" id='navbar'>
      <nav>
         <h1 class = "col-span-1  text-purple-700 font-black text-2xl">N.R <span class="text-white">Tech</span></h1>
        <ul class = "flex justify-evenly text-white">
