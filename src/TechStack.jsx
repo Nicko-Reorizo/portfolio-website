@@ -1,4 +1,5 @@
 import './css/TeckStack.css';
+import './css/fonts.css';
 import ScrollAnimation from './ScrollAnimation';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
@@ -17,16 +18,16 @@ function TechStack(){
     const TechStackSection =
     (<section id='TechStack-Section' className="TechStack-Section">
        
-            <div className="purple-shadow bg-purple-700 absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full mt-16"></div>
-            <div className="purple-shadow bg-purple-700 absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[50vh]"></div>
-            <div className="purple-shadow bg-purple-700 absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[30vw] mt-[120vh]"></div>
+            <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full mt-16"></div>
+            <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[50vh]"></div>
+            <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[30vw] mt-[120vh]"></div>
 
-            <div className="purple-shadow bg-purple-700 lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[40vw] mt-[200vh]"></div>
-            <div className="purple-shadow bg-purple-700 lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[10vw] mt-[100vh]"></div>
-            <div className="purple-shadow bg-purple-700 lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[150vh]"></div>
+            <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[40vw] mt-[200vh]"></div>
+            <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[10vw] mt-[100vh]"></div>
+            <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[150vh]"></div>
        
-<p className='inter-bold p-animation ts-header'>Tech <span className="text-gradient">Stack</span></p>
-<p className='inter-thin p-animation ts-subheader'>These are the languages, frameworks and libraries that I've learned and utilized by making personal projects</p>
+<p className='inter-bold p-animation ts-header inter-bold'>Tech <span className="text-[#6900ff]">Stack</span></p>
+<p className='inter-thin p-animation ts-subheader inter-bold'>These are the languages, frameworks and libraries that I've learned and utilized by making personal projects</p>
 
 <div className="card-section">
 
@@ -132,8 +133,8 @@ function TechStack(){
 </div>
 </div>
 
-<p className='inter-bold p2-animation ts-header'><span className="text-gradient">Skills</span></p>
-<p className='inter-thin p2-animation ts-subheader'>These are the core areas I specialize in, where I apply my knowledge, creativity, and technical expertise to build meaningful and efficient digital solutions.</p>
+<p className='inter-bold p2-animation ts-header inter-bold'><span className="text-[#6900ff]">Skills</span></p>
+<p className='inter-thin p2-animation ts-subheader inter-bold'>These are the core areas I specialize in, where I apply my knowledge, creativity, and technical expertise to build meaningful and efficient digital solutions.</p>
 
 <div className="skills-card-section">
     <div className="skills-card">
@@ -141,7 +142,7 @@ function TechStack(){
         <div className="skills-card-content">
             <i class="fa-solid fa-globe text-gradient"></i>
             <p className='inter-bold text-white text-2xl mt-3'>WEB DEVELOPMENT</p>
-            <p className='text-white'>I build responsive and user-friendly
+            <p className='text-[#ffffff8c] inter-bold'>I build responsive and user-friendly
 websites using HTML, CSS, JavaScript, and
 frameworks like Tailwind CSS. I focus on
 creating clean designs and ensuring good
@@ -153,7 +154,7 @@ performance across devices.</p>
          <div className="skills-card-content">
             <i class="fa-solid fa-object-ungroup text-gradient"></i>
             <p className='inter-bold text-white text-2xl mt-3'>UI/UX</p>
-            <p className='text-white '>I create intuitive and visually appealing
+            <p className='text-[#ffffff8c] inter-bold'>I create intuitive and visually appealing
 interfaces with a focus on user experience.
 My goal is to design layouts that are both
 functional and enjoyable for users.</p>
@@ -164,7 +165,7 @@ functional and enjoyable for users.</p>
          <div className="skills-card-content">
             <i class="fa-solid fa-computer text-gradient"></i>
             <p className='inter-bold text-white text-2xl mt-3'>Software Development</p>
-            <p className='text-white'>I develop software solutions by applying
+            <p className='text-[#ffffff8c] inter-bold'>I develop software solutions by applying
 programming fundamentals, problem-
 solving skills, and efficient code practices. I
 enjoy turning ideas into working

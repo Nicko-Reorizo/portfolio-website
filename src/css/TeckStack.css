@@ -2,18 +2,19 @@
 @import './gradients.css';
 @import './fonts.css';
 .TechStack-Section{
-    box-shadow: 0px 0px 400px #0d0e0d, 0px 0px 400px #0d0e0d, 0px 0px 400px #0d0e0d;
-    @apply min-h-[100vh] w-[100vw] bg-[#0d0e0d]  
+    box-shadow: 0px 10px 400px #0d0e0d, 0px 0px 400px #0d0e0d, 0px 0px 400px #0d0e0d;
+    @apply  bg-[#0d0e0d]  
     text-center
     overflow-x-hidden
-
+    whitespace-normal
+    mr-5 ml-5
 }
 
 .ts-header{
-@apply lg:text-6xl text-5xl pt-[10vh] text-white ;
+@apply lg:text-6xl text-5xl pt-[10vh] text-white text-left md:text-center;
 }
 .ts-subheader{
-    @apply text-[#ffffff82] mt-5 mb-1 lg:text-lg text-sm pl-5 pr-5;
+    @apply text-[#ffffff82] mt-5 mb-1 lg:text-2xl text-lg  md:text-2xl text-left md:text-center;
 }
 .p-animation{
     opacity: 0;
@@ -34,43 +35,22 @@
     transform:translateX(0px);
 }
 .card-section{
-    @apply grid 2xl:grid-cols-4 md:grid-cols-2 xl:grid-cols-3 grid-cols-1 place-items-center justify-center mt-10 mb-20
+    @apply grid 2xl:grid-cols-3 md:grid-cols-2  grid-cols-1 place-items-center justify-center mt-10 mb-20 
 }
 .card{
-    
     opacity: 0;
     transform: translateY(100px);
     cursor:pointer;
-margin: 20px;
- width: 350px;
- height: 100px;
- border-radius: 30px;
- background: #1e1e1ed0;
- box-shadow: 5px 5px #000000;
+ border-radius: 10px;
+ background: #0d0e0d;
+ box-shadow: 5px 5px #000000,inset 0 5px 15px rgba(255, 255, 255, 0.065);
  transition: 300ms ease;
- @apply grid grid-cols-3 col-span-1 
+ @apply grid grid-cols-3 col-span-1 md:w-[350px] md:h-[100px] mb-5 md:mb-10 
 }
 .card.show{
     opacity: 1;
     transition: 800ms ease;
     transform: translateY(0px);
-}
-.card-two {
-margin: 20px;
- width: 350px;
- height: 100px;
- border-radius: 30px;
- background: #1e1e1ed0;
- box-shadow: 5px 5px #000000;
- @apply grid grid-cols-3 col-span-1
-}.card-three  {
-margin: 20px;
- width: 350px;
- height: 100px;
- border-radius: 30px;
- background: #1e1e1ed0;
- box-shadow: 5px 5px #000000;
- @apply grid grid-cols-3 col-span-1
 }
 
 .react{
@@ -79,7 +59,7 @@ margin: 20px;
 .card-container-img{
  width: 90px;
  height: 100px;
-  @apply flex items-center justify-center ml-5 col-span-1
+  @apply flex items-center justify-center ml-12 col-span-1 md:ml-5
 }
 .card-container-text{
  width: 260px;
@@ -100,7 +80,7 @@ margin: 20px;
 }
 
 .skills-card-section{
-    @apply grid lg:grid-cols-3 grid-cols-1 place-items-center pb-20 mt-10 
+    @apply grid md:grid-cols-2 2xl:grid-cols-3 grid-cols-1 place-items-center pb-20 mt-10 
 }
 .skills-card-section .fa-solid{
     @apply text-5xl
@@ -112,13 +92,12 @@ margin: 20px;
 cursor:pointer;
 transition: 300ms ease;
 text-align: left;
-margin: 20px;
- width: 400px;
- height: 350px;
+
+margin-bottom: 20px;
  border-radius: 30px;
- background: #1e1e1ed0;
- box-shadow: 5px 5px #000000;
- @apply grid col-span-1 pt-15 w-[350px] lg:w-[400px] h-[350px] lg:h-[350px]
+ background: #0d0e0d;
+ box-shadow: 5px 5px #000000,inset 0 5px 15px rgba(255, 255, 255, 0.065);
+ @apply grid col-span-1 pt-15 md:w-[350px]  pb-15
 }
 .skills-card.show{
     transform: translateX(0px);
@@ -135,6 +114,8 @@ margin: 20px;
 .text-shadow{
     text-shadow: 0 0 15px rgba(82, 36, 125, 0.6);
 }
+
+
 
 
 

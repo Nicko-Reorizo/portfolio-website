@@ -1,21 +1,33 @@
 @import 'tailwindcss';
 .navbar{
-  @apply sticky backdrop-blur-lg z-50 pb-5
+  @apply sticky  z-50  pt-3
 }
 nav{
- @apply grid grid-cols-2 pt-8
-  lg:mr-30 lg:ml-30
-  mr-5 ml-5; 
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.438);
+ @apply  
+   lg:rounded-3xl border-2 border-[#202020]
+  mr-5 ml-5 bg-[#0d0e0d] pb-4 pt-4 xl:pb-6 xl:pt-6 rounded-none;
   animation: slide-down 1s ease-out;
- ;
 }
 nav ul{
  @apply hidden xl:flex
 }
 
-
+.nav-text{
+  transition: 300ms ease;
+  @apply text-[1rem]
+}
 
 .nav-text:hover{
-   border: 2px  solid  #9951ff;
-   border-width: 0px 0px 3px 0px;
+  transition: 300ms ease;
+  color: #6900ff;
+}
+.btn{
+  transition: 300ms ease;
+  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.144);
+ @apply  p-2 pl-10 pr-10 font-bold xl:p-3 xl:pl-10 xl:pr-10 rounded-[10px] border-2 border-[#6900ff];
+}
+.btn:hover{
+  transition: 300ms ease;
+  @apply bg-[#6900ff]
 }

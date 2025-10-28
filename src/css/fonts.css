@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@700&display=swap');
-.inter-bold {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 750;
-  font-style: normal;
-}
+
 .inter-black {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -43,4 +38,23 @@ font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-style: normal;
   
+}
+
+@font-face{
+  font-family: "Anton";
+  src: url("/public/Anton-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Inter-Bold";
+  src: url("/public/Inter_28pt-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+.Anton-font{
+   font-family: "Anton";
+}
+.inter-bold {
+  font-family: "Inter-Bold";
 }
