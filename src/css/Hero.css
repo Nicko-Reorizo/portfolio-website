@@ -23,7 +23,7 @@
 .Hero-Section{
   @apply grid lg:h-[100vh] h-[100vh]
      justify-center items-center
-    lg:mr-30 lg:ml-30
+    lg:mr-45 lg:ml-45
     mr-5 ml-5
    
    
@@ -44,7 +44,7 @@
 }
 .hero-info p:nth-child(2){
   
-  @apply overflow-hidden lg:leading-tight  inline-block text-white opacity-80 lg:text-2xl text-lg  md:text-2xl  mt-1 mb-1 lg:mb-5 md:ml-23 md:mr-23 2xl:ml-48 2xl:mr-48 lg:text-justify lg:[text-align-last:center]; 
+  @apply overflow-hidden lg:leading-tight  inline-block text-white opacity-80 lg:text-2xl text-lg  md:text-2xl  mt-1 mb-1 lg:mb-5 md:ml-43 md:mr-43 2xl:ml-58 2xl:mr-58 lg:text-justify lg:[text-align-last:center]; 
  
      -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;

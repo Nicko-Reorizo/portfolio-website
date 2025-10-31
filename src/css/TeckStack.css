@@ -2,12 +2,13 @@
 @import './gradients.css';
 @import './fonts.css';
 .TechStack-Section{
-    box-shadow: 0px 10px 400px #0d0e0d, 0px 0px 400px #0d0e0d, 0px 0px 400px #0d0e0d;
+    
     @apply  bg-[#0d0e0d]  
     text-center
     overflow-x-hidden
     whitespace-normal
     mr-5 ml-5
+    lg:mr-45 lg:ml-45
 }
 
 .ts-header{

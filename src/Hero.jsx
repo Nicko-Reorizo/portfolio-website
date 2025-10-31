@@ -8,9 +8,7 @@ const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQK
     
         <section className='Hero-Section'>
             
-            <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 rounded-b-full -z-10 -top-32 left-1/3"></div>
-            <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 rounded-b-full -z-10 bottom-1/3 lg:-left-72 left-0"></div>
-             <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 rounded-b-full -z-10 bottom-0 lg:-right-72 right-0"></div>
+            
              <div className="col-span-1  lg:hidden flex justify-center ">
        </div>
        <div className='absolute pill p1 flex items-center gap-2 slide-in-bottom'>
@@ -24,7 +22,7 @@ const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQK
 </div>
         <div className="hero-info">
 
-        <p className='inter-bold '>Hello, my name is <span className='text-[#6900ff] whitespace-nowrap'>Nicko Reorizo.</span></p>
+        <p className='inter-bold '>Hello, my name is <span className='text-[#6900ff] '><br />Nicko Reorizo.</span></p>
       
         <p className='inter-bold'>Building seamless digital experiences with purpose and detail, creating designs that inspire and engage.</p>
         

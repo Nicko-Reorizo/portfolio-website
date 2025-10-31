@@ -18,13 +18,13 @@ function TechStack(){
     const TechStackSection =
     (<section id='TechStack-Section' className="TechStack-Section">
        
-            <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full mt-16"></div>
+            {/* <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full mt-16"></div>
             <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[50vh]"></div>
             <div className="purple-shadow bg-[#6900ff] absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[30vw] mt-[120vh]"></div>
 
             <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[40vw] mt-[200vh]"></div>
             <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[10vw] mt-[100vh]"></div>
-            <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[150vh]"></div>
+            <div className="purple-shadow bg-[#6900ff] lg:hidden absolute w-1/3 h-1/3 blur-3xl opacity-15 lg:opacity-10 rounded-full ml-[90vw] mt-[150vh]"></div> */}
        
 <p className='inter-bold p-animation ts-header inter-bold'>Tech <span className="text-[#6900ff]">Stack</span></p>
 <p className='inter-thin p-animation ts-subheader inter-bold'>These are the languages, frameworks and libraries that I've learned and utilized by making personal projects</p>

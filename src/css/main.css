@@ -4,9 +4,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   background-color: #0d0e0d; 
-  background-image: 
-    linear-gradient(rgba(148, 8, 255, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(125, 3, 255, 0.1) 1px, transparent 1px);
+ 
   background-size: 50px 50px;
   background-position: center;
   @apply 2xl:mr-[12%] 2xl:ml-[12%]  xl:mr-[10%] xl:ml-[10%]

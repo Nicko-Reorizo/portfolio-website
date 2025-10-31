@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+.navbar{
+  @apply sticky z-50  pt-3
+}
+nav{
+
+ @apply  fixed right-0 lg:right-5 top-32;
+  animation: slide-down 1s ease-out;
+}
+nav ul{
+ @apply  flex flex-col text-right space-y-6 p-3 text-white;
+}
+
+.nav-text{
+  transition: 300ms ease;
+  @apply text-[1rem]
+}
+
+.nav-text:hover{
+  transition: 300ms ease;
+  color: #6900ff;
+}
+
+.btn:hover{
+  transition: 300ms ease;
+  @apply bg-[#6900ff]
+}

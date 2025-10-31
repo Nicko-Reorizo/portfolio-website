@@ -1,4 +1,8 @@
 @import 'tailwindcss';
 
 
-
+#AboutMe-Section{
+    background-color: #0d0e0d; 
+    min-height: 100vh;
+    margin-top: 1000px;
+}
