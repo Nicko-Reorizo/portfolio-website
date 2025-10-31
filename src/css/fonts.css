@@ -52,6 +52,24 @@ font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
+@font-face{
+  font-family: "Inter-ExtraLight";
+  src: url("/public/Inter_18pt-ExtraLight.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Inter-Extrabold";
+  src: url("/public/Inter_18pt-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+.Inter-ExtraLight{
+  font-family: "Inter-ExtraLight";
+}
+.Inter-ExtraBold{
+  font-family: "Inter-ExtraBold";
+}
 .Anton-font{
    font-family: "Anton";
 }

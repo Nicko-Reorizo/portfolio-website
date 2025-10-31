@@ -1,11 +1,16 @@
 
 import React from "react";
+import { useEffect } from "react";
 import './css/AboutMe.css'
 import MotionCards, { MotionCardContent } from "./MotionCards";
 import { Lightbulb, Layers, Palette, Rocket, Hammer } from "lucide-react";
+import { initScrollAnimations } from "./ScrollTrigger.js";
 
 
 function AboutMe(){
+
+
+
     const mcards = 
       <MotionCards interval={2500}>
         <MotionCardContent>
@@ -46,7 +51,13 @@ function AboutMe(){
 
 
     return (
-        <section id="AboutMe-Section">{mcards}</section>);
+        <section id="AboutMe-Section">
+          <div className="about-text-section">
+            <p className="Inter-ExtraLight about-p">What I Do</p>
+            <p className="Inter-ExtraBold about-p">I craft visually stunning and high-performing websites designed to impress and stand out from the competition.</p>
+          </div>
+          <div className="about-card-section">{mcards}</div>
+          </section>);
 }
 
 

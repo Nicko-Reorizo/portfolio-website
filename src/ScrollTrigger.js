@@ -39,19 +39,20 @@ gsap.to('.About-nav', {
 });
 
 
-
-
-
-
-
-gsap.to('#AboutMe-Section', { 
+gsap.to('body', { 
   backgroundColor: '#6900FF', 
   scrollTrigger: {
     trigger: '#AboutMe-Section', 
     start: 'top 80%',            
-    end: 'bottom 20%',          
-    scrub: true,                
+    end: 'bottom top',          
+    scrub: true,
+    markers:true                
   }
 });
+
+
+
+
+
 
 }

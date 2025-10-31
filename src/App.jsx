@@ -7,8 +7,8 @@ import Navbar from "./Navbar.jsx";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
-import { initScrollAnimations } from "./ScrollTrigger";
-
+import { initScrollAnimations } from "./ScrollTrigger.js";
+import './css/main.css';
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function App() {
@@ -32,9 +32,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <div id="smooth-wrapper">
+      <div id="smooth-wrapper" className="">
         <div id="smooth-content">
-          <div className="absolute inset-0 -z-10 bg-[#0d0e0d]">
+          <div className="absolute inset-0 -z-10">
             <VenomBeam />
           </div>
 
