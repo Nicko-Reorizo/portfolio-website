@@ -53,10 +53,12 @@ function AboutMe(){
     return (
         <section id="AboutMe-Section">
           <div className="about-text-section">
+            
             <p className="Inter-ExtraLight about-p">What I Do</p>
             <p className="Inter-ExtraBold about-p">I craft visually stunning and high-performing websites designed to impress and stand out from the competition.</p>
+            
           </div>
-          <div className="about-card-section">{mcards}</div>
+          {/* <div className="about-card-section">{mcards}</div> */}
           </section>);
 }
 

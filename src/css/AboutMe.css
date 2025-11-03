@@ -2,21 +2,20 @@
 
 
 #AboutMe-Section{
-    
     min-height: 100vh;
     margin-top: 300px;
     margin-bottom: 300px;
-    @apply grid lg:grid-cols-[1.5fr_1fr] items-center text-white;
+    @apply  items-center text-white;
 }
 
 .about-text-section{
-     @apply lg:pl-10 pl-8 pr-8 justify-center 
+     @apply lg:pl-10 pl-8 pr-8 justify-center overflow-hidden 
 }
 .about-text-section  p:nth-child(1){
-      @apply  2xl:text-3xl 
+      @apply  2xl:text-3xl md:text-2xl
 }
 .about-text-section  p:nth-child(2){
-     @apply  2xl:text-7xl text-4xl 
+     @apply  2xl:text-[100px] text-4xl md:text-[80px]
 }
 .about-cards-section{
 
@@ -26,4 +25,25 @@
   display: inline-block;
   will-change: clip-path, opacity, transform;
   overflow: hidden;
+}
+
+.text-wrapper{
+    @apply border
+}
+.text-wrapper p {
+     
+}
+
+
+.about-p {
+  white-space: normal; /* allows normal text wrapping by words */
+}
+
+.about-p div {
+  display: inline-block;
+  white-space: nowrap; /* keeps all chars of each word on one line */
+}
+
+.about-p span {
+  display: inline-block;
 }

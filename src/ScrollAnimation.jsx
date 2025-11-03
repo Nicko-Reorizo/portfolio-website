@@ -6,6 +6,9 @@ function ScrollAnimation(container, className = "show") {
       if (entry.isIntersecting) {
         entry.target.classList.add(className);
       } 
+      else{
+         entry.target.classList.remove(className);
+      }
     });
   }, {
     threshold: 0.2
