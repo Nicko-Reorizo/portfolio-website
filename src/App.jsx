@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function App() {
   useEffect(() => {
-    // Clean up any existing smoother instance
+    
     if (ScrollSmoother.get()) ScrollSmoother.get().kill();
 
     // Initialize ScrollSmoother
@@ -37,8 +37,9 @@ function App() {
           <div className="absolute inset-0 -z-10">
             <VenomBeam />
           </div>
-
+           <div id="Hero-Section">
           <Hero Logged={true} />
+          </div>
            <section id="About-Section">
           <AboutMe />
           </section>
