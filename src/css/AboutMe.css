@@ -5,11 +5,13 @@
     min-height: 100vh;
     margin-top: 300px;
     margin-bottom: 300px;
-    @apply  items-center text-white;
+    @apply   text-white;
 }
 
 .about-text-section{
-     @apply lg:pl-10 pl-8 pr-8 justify-center overflow-hidden 
+ 
+  min-height: 100vh;
+     @apply lg:pl-10 pl-8 pr-8 justify-center overflow-hidden  
 }
 .about-text-section  p:nth-child(1){
       @apply  2xl:text-3xl md:text-2xl
@@ -30,20 +32,18 @@
 .text-wrapper{
     @apply border
 }
-.text-wrapper p {
-     
-}
 
-
-.about-p {
-  white-space: normal; /* allows normal text wrapping by words */
-}
-
-.about-p div {
-  display: inline-block;
-  white-space: nowrap; /* keeps all chars of each word on one line */
-}
 
 .about-p span {
   display: inline-block;
 }
+.about-img-section img{
+ @apply rounded-4xl lg:w-[70vw]
+}
+.about-img-section{
+  @apply mt-50 flex items-center flex-col space-y-50
+}
+
+
+
+

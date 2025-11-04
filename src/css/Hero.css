@@ -30,10 +30,9 @@
 }
 .hero-info{
   @apply col-span-1
-   text-center
-   md:text-center
+   
   mb-[20vh] lg:mb-[0vh]
- 
+  md:text-center
 }
 
 .hero-info p:nth-child(1){

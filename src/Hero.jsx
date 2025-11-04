@@ -22,7 +22,7 @@ const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQK
 </div>
         <div className="hero-info">
 
-        <p className='inter-bold '>Hello, my name is <span className='text-[#6900ff] '><br />Nicko Reorizo.</span></p>
+        <p className='inter-bold '>Hello, my name is <span className='text-[#6900ff]'><br class="hidden md:block"/>Nicko Reorizo.</span></p>
       
         <p className='inter-bold'>Building seamless digital experiences with purpose and detail, creating designs that inspire and engage.</p>
         
@@ -32,12 +32,10 @@ const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQK
 
        
 
-        <button className="cv-button inter-bold text-white cursor-pointer mr-5 lg:mr-10" onClick={()=> window.location.href=cvlink}>Download CV
+        <button className="cv-button inter-bold text-white cursor-pointer" onClick={()=> window.location.href=cvlink}>Download CV
         
         </button>
-         <button className="cv-button2  inter-bold text-white cursor-pointer">LEARN MORE
-        
-        </button>
+         
         
         <p></p>
 

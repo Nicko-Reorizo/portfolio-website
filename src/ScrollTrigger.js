@@ -2,22 +2,21 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
+import { Pin, Target } from "lucide-react";
 
 gsap.registerPlugin(SplitText);
 gsap.registerPlugin(ScrollTrigger);
 
 export function initScrollAnimations() {
 
- 
 
- 
 
 const tl = gsap.timeline({
   scrollTrigger: {
     trigger: "#AboutMe-Section",
     start: "top 80%",
     endTrigger: "#TechStack-Section",
-    end: "top 50%",
+    end: "top 30%",
     scrub: true,
   }
 });
@@ -25,10 +24,6 @@ const tl = gsap.timeline({
 tl.to(["body",'.TechStack-Section'], { backgroundColor: "#6900FF", duration: 1 })
   .to(["body",'.TechStack-Section'], { backgroundColor: "#0d0e0d", duration: 1 });
 
-
-  gsap.to(".nav-text", {
-
-  })
 
 
 let MySplitText = new SplitText('.about-p', {type: 'words'});

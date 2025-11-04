@@ -55,7 +55,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
      <div className="card-container-img"> 
-        <img src="./public/javascriptcard-picture.PNG" alt="" className="card-pic" />
+        <img src="public/javascriptcard-picture.PNG" alt="" className="card-pic" />
      </div>
      <div className="card-container-text">
         <h1 className='text-[#ffdd25] inter-bold'>Javascript <span>2 Years Experience</span></h1>
@@ -81,7 +81,7 @@ function TechStack(){
          <h1 className='text-[#38bdf8] inter-bold'>React <span>1 Year Experience</span></h1>
     </div>
 </div>
-
+ 
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
