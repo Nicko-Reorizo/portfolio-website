@@ -11,10 +11,10 @@
 .about-text-section{
  
   min-height: 100vh;
-     @apply lg:pl-10 pl-8 pr-8 justify-center overflow-hidden  
+     @apply lg:pl-10 pl-8 pr-8 justify-center overflow-hidden absolute -z-50 
 }
 .about-text-section  p:nth-child(1){
-      @apply  2xl:text-3xl md:text-2xl
+      @apply  2xl:text-3xl md:text-2xl 
 }
 .about-text-section  p:nth-child(2){
      @apply  2xl:text-[100px] text-4xl md:text-[80px]
@@ -38,12 +38,11 @@
   display: inline-block;
 }
 .about-img-section img{
- @apply rounded-4xl lg:w-[70vw]
+ @apply rounded-4xl lg:w-[70vw] mt-200
 }
 .about-img-section{
-  @apply mt-50 flex items-center flex-col space-y-50
+  @apply mt-50 flex items-center flex-col space-y-10 pb-200
 }
-
 
 
 
