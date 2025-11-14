@@ -4,6 +4,7 @@ import TechStack from "./TechStack.jsx";
 import VenomBeam from "./VenomBeam.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Navbar from "./Navbar.jsx";
+import Projects from "./Projects.jsx"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
@@ -48,7 +49,9 @@ function App() {
           </section>
 
          
-          
+          <section id="Projects-Section">
+            <Projects/>
+          </section>
         </div>
       </div>
     </>

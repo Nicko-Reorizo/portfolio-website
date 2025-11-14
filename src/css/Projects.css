@@ -1,12 +1,7 @@
 @import 'tailwindcss';
 
-section{
-    @apply min-h-[100vh] min-w-[100vw]
-}
 
 .project-card-section{
 @apply flex justify-center min-w-full
 }
-.project-card{
-  @apply w-[300px] h-[300px] bg-[#1e1e1ed0] 
-}
+
