@@ -1,7 +1,16 @@
 @import 'tailwindcss';
 
 
-.project-card-section{
-@apply flex justify-center min-w-full
+.project-section{
+@apply mr-5 ml-5
+    lg:mr-45 lg:ml-45
 }
+.project-card-section{
+    @apply mt-[20px] grid xl:grid-cols-1 place-items-center
+}
+
+.project-card{
+    @apply bg-[#111111] h-[100vh] 2xl:h-[525px] 2xl:w-[1179px] mt-10 rounded-[10px]
+}
+
 
