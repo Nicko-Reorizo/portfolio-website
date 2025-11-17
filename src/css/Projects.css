@@ -6,11 +6,27 @@
     lg:mr-45 lg:ml-45
 }
 .project-card-section{
-    @apply mt-[20px] grid xl:grid-cols-1 place-items-center
+    @apply mt-[20px] grid xl:grid-cols-1 place-items-center space-y-30
 }
 
 .project-card{
-    @apply bg-[#111111] h-[100vh] 2xl:h-[525px] 2xl:w-[1179px] mt-10 rounded-[10px]
+    @apply bg-[#111111] grid lg:grid-cols-[1fr_1.2fr]
+    2xl:h-[525px] 2xl:w-[1179px] 
+    xl:h-[470px] xl:w-[1050px]
+    lg:h-[400px] lg:w-[800px]
+    mt-10 rounded-[10px]
+    
 }
 
+.project-card-section img{
+    @apply  rounded-[10px] xl:p-10 p-6
+}
+
+.project-card-info{
+    @apply xl:p-10 p-6
+}
+
+.project-card-info p:nth-child(1){
+    @apply 2xl:text-6xl
+}
 

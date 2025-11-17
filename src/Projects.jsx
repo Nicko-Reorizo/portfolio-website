@@ -9,10 +9,38 @@ return(<section>
 <p className='inter-bold text-center ts-subheader'>These are the Websites that I've created by applying the skills that I've learned.</p>
 
 <div className="project-card-section">
-<div className="project-card"></div>
-<div className="project-card"></div>
-<div className="project-card"></div>
-<div className="project-card"></div>
+<div className="project-card">
+ <img src="/public/voltpic.webp" alt="" />
+ <div className="project-card-info">
+    <p className='inter-bold text-white'>VOLTINCONS</p>
+    <p></p>
+ </div>
+</div>
+
+<div className="project-card">
+ <img src="/public/wompic.webp" alt="" />
+  <div className="project-card-info">
+    <p className='inter-bold text-white'>WOMBAGS</p>
+    <p></p>
+  </div>
+</div>
+
+<div className="project-card">
+ <img src="/public/akapic.webp" alt="" />
+  <div className="project-card-info">
+    <p className='inter-bold text-white'>PC HAVEN</p>
+    <p></p>
+  </div>
+</div>
+
+<div className="project-card">
+ <img src="/public/campic.webp" alt="" />
+  <div className="project-card-info">
+    <p className='inter-bold text-white'>CAMHIGH</p>
+    <p></p>
+  </div>
+</div>
+
 </div>
 
 
