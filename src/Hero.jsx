@@ -24,7 +24,7 @@ const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQK
 
         <p className='inter-bold '>Hello, my name is <span className='text-[#6900ff]'><br class="hidden md:block"/>Nicko Reorizo.</span></p>
       
-        <p className='inter-bold'>Building seamless digital experiences with purpose and detail, creating designs that inspire and engage.</p>
+        <p className='inter-reg'>Building seamless digital experiences with purpose and detail, creating designs that inspire and engage.</p>
         
         
         <p></p>

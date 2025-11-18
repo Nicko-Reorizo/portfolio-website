@@ -58,6 +58,10 @@ font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Inter-Reg";
+  src: url("/public/Inter_18pt-Regular.ttf");
+}
 @font-face{
   font-family: "Inter-Extrabold";
   src: url("/public/Inter_18pt-ExtraBold.ttf");
@@ -72,6 +76,9 @@ font-family: "Montserrat", sans-serif;
 }
 .Anton-font{
    font-family: "Anton";
+}
+.inter-reg{
+  font-family: "Inter-Reg";
 }
 .inter-bold {
   font-family: "Inter-Bold";
