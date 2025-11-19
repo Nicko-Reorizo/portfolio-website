@@ -22,8 +22,12 @@
     @apply  rounded-[10px] xl:p-10 p-6
 }
 
+
+.project-card-info-container{
+    @apply 2xl:flex items-center
+}
 .project-card-info{
-    @apply xl:p-10 p-6 
+    @apply xl:p-10 p-6 inline-block
 }
 
 .project-card-info p:nth-child(1){
@@ -35,7 +39,7 @@
 }
 
 .project-pill{
-    @apply mt-3 space-x-3 border-b border-[#ffffff31] pb-10
+    @apply mt-3 space-x-3 border-b border-[#ffffff31] pb-10 space-y-3
 }
 
 .project-pill div{
@@ -43,3 +47,25 @@
     @apply py-2 px-6 border-[0.5px] border-[#3e3e3e]  inline-block rounded-[30px] text-[white] opacity-60
 }
 
+.project-bottom{
+    @apply lg:pt-5 flex items-end text-balance justify-between
+}
+.project-bottom a{
+    @apply cursor-pointer
+}
+.green-dot{
+    @apply mt-7.5;
+    box-shadow: 0px 0px 10px 1px green;
+}
+.green-dot1{
+    @apply mt-7.5;
+    box-shadow: 0px 0px 10px 1px red;
+}
+.project-btn{
+    font-family: "Inter-Bold";
+    @apply p-3 px-10 rounded-[10px] text-white -mb-2
+}
+
+.project-status{
+    @apply flex
+}
