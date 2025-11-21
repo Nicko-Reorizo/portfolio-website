@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-
+/* project css */
 .project-section{
 @apply mr-5 ml-5
     lg:mr-45 lg:ml-45
