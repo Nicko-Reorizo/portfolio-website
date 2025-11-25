@@ -22,7 +22,7 @@ return(<section>
       <div>HTML</div>
       <div>CSS</div>
       <div>JavaScript</div>
-      <div>TailwindCSS</div>
+      <div>Tailwind</div>
     </div>
 
 <div className="project-bottom">
@@ -49,7 +49,7 @@ return(<section>
       <div>FIGMA</div>
       <div>GSAP</div>
       <div>JavaScript</div>
-      <div>TailwindCSS</div>
+      <div>Tailwind</div>
     </div>
 
 <div className="project-bottom">

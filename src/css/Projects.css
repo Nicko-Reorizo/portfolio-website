@@ -24,14 +24,14 @@
 
 
 .project-card-info-container{
-    @apply 2xl:flex items-center
+    @apply lg:flex items-center
 }
 .project-card-info{
     @apply xl:p-10 p-6 inline-block
 }
 
 .project-card-info p:nth-child(1){
-    @apply 2xl:text-6xl block
+    @apply xl:text-6xl block text-2xl lg:text-4xl 
 }
 
 .project-card-info p:nth-child(2){
@@ -39,12 +39,12 @@
 }
 
 .project-pill{
-    @apply mt-3 space-x-3 border-b border-[#ffffff31] pb-10 space-y-3
+    @apply mt-3  border-b border-[#ffffff31] pb-10 lg:space-y-3 lg:space-x-3 space-x-2 space-y-2
 }
 
-.project-pill div{
+.project-pill div{  
     font-family: Inter-Reg;
-    @apply py-2 px-6 border-[0.5px] border-[#3e3e3e]  inline-block rounded-[30px] text-[white] opacity-60
+    @apply py-2 px-4 lg:py-2 lg:px-6 border-[0.5px] border-[#3e3e3e]  inline-block rounded-[30px] text-[white] opacity-60 text-[10px] md:text-[16px];
 }
 
 .project-bottom{
@@ -63,7 +63,7 @@
 }
 .project-btn{
     font-family: "Inter-Bold";
-    @apply p-3 px-10 rounded-[10px] text-white -mb-2
+    @apply p-3 px-10 rounded-[10px] text-white -mb-2 text-nowrap
 }
 
 .project-status{

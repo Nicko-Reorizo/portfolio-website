@@ -51,8 +51,8 @@ ScrollTrigger.create({
   pin: true,
   start: "center 65%",
   endTrigger: ".about-img-section img:last-child",
-  end: "bottom top", 
-  markers: true
+  end: "bottom top"
+
 });
 
 gsap.utils.toArray()
