@@ -31,7 +31,7 @@
 }
 
 .project-card-info p:nth-child(1){
-    @apply xl:text-6xl block text-2xl lg:text-4xl 
+    @apply xl:text-6xl block text-4xl 
 }
 
 .project-card-info p:nth-child(2){
@@ -39,7 +39,7 @@
 }
 
 .project-pill{
-    @apply mt-3  border-b border-[#ffffff31] pb-10 lg:space-y-3 lg:space-x-3 space-x-2 space-y-2
+    @apply mt-3  border-b border-[#ffffff31] pb-3 lg:pb-10 lg:space-y-3 lg:space-x-3 space-x-2 space-y-2
 }
 
 .project-pill div{  
@@ -48,7 +48,7 @@
 }
 
 .project-bottom{
-    @apply lg:pt-5 flex items-end text-balance justify-between
+    @apply pt-3 lg:pt-5 flex items-end text-balance justify-between pb-3
 }
 .project-bottom a{
     @apply cursor-pointer

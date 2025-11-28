@@ -13,7 +13,7 @@ return(<section>
 
 <div className="project-card">
   <div className='absolute bg-[#5023bd] h-[200px] w-1 mt-5 custom-glow'></div>
- <img src="/public/voltpic.webp" alt="" />
+ <img src="/voltpic.webp" alt="" />
   <div className="project-card-info-container">
  <div className="project-card-info">
     <p className='inter-bold text-white'>VOLTINCONS</p>
@@ -38,7 +38,7 @@ return(<section>
 
 <div className="project-card">
   <div className='absolute bg-[#5023bd] h-[200px] w-1 mt-5 custom-glow'></div>
- <img src="/public/wompic.webp" alt="" />
+ <img src="/wompic.webp" alt="" />
   <div className="project-card-info-container">
   <div className="project-card-info">
     <p className='inter-bold text-white'>WOMBAGS</p>
@@ -65,7 +65,7 @@ return(<section>
 
 <div className="project-card">
   <div className='absolute bg-[#5023bd] h-[200px] w-1 mt-5 custom-glow'></div>
- <img src="/public/akapic.webp" alt="" />
+ <img src="/akapic.webp" alt="" />
  <div className="project-card-info-container">
   <div className="project-card-info">
     <p className='inter-bold text-white'>PC HAVEN</p>
@@ -89,7 +89,7 @@ return(<section>
 
 <div className="project-card">
   <div className='absolute bg-[#5023bd] h-[200px] w-1 mt-5 custom-glow'></div>
- <img src="/public/campic.webp" alt="" />
+ <img src="/campic.webp" alt="" />
  <div className="project-card-info-container">
   <div className="project-card-info">
     <p className='inter-bold text-white'>CAMHIGH</p>

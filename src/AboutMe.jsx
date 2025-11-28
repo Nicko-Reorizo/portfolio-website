@@ -23,9 +23,9 @@ function AboutMe(){
 
 
           <div className="about-img-section ">
-            <img src="/public/1stwork.webp" alt=""/>
-            <img src="/public/2ndwork.webp" alt="" />
-            <img src="/public/3rdwork.webp" alt="" />
+            <img src="/1stwork.webp" alt=""/>
+            <img src="/2ndwork.webp" alt="" />
+            <img src="/3rdwork.webp" alt="" />
           </div>
 
           </section>);

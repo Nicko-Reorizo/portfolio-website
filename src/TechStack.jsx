@@ -34,7 +34,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img">
-         <img src="./public/csscard-picture.PNG" alt="" className="card-pic" />
+         <img src="/csscard-picture.PNG" alt="" className="card-pic" />
     </div>
     <div className="card-container-text">
      <h1 className='text-[#38bdf8] inter-bold'>CSS<span>2 Years Experience</span></h1>
@@ -44,7 +44,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5  custom-glow'></div>
     <div className="card-container-img">
-        <img src="./public/htmlcard-picture.PNG" alt="" className="card-pic" />
+        <img src="/htmlcard-picture.PNG" alt="" className="card-pic" />
     </div>
     <div className="card-container-text">
          <h1 className='text-[#ff4e1d] inter-bold'> HTML <span>2 Years Experience</span></h1>
@@ -55,7 +55,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
      <div className="card-container-img"> 
-        <img src="public/javascriptcard-picture.PNG" alt="" className="card-pic" />
+        <img src="/javascriptcard-picture.PNG" alt="" className="card-pic" />
      </div>
      <div className="card-container-text">
         <h1 className='text-[#ffdd25] inter-bold'>Javascript <span>2 Years Experience</span></h1>
@@ -65,7 +65,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/tailwindcard-picture.PNG" alt="" className="card-pic" />
+        <img src="/tailwindcard-picture.PNG" alt="" className="card-pic" />
     </div>
     <div className="card-container-text">
          <h1 className='text-[#38bdf8] inter-bold'>TailwindCSS <span>1 Year Experience</span></h1>
@@ -75,7 +75,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/reactcard-picture.PNG" alt="" className="card-pic"/>
+        <img src="/reactcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
          <h1 className='text-[#38bdf8] inter-bold'>React <span>1 Year Experience</span></h1>
@@ -85,7 +85,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/cppcard-picture.PNG" alt="" className="card-pic"/>
+        <img src="/cppcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
          <h1 className='text-[#38bdf8] inter-bold'>C++ <span>1 Year Experience</span></h1>
@@ -95,7 +95,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/javacard-picture.PNG" alt="" className="card-pic"/>
+        <img src="/javacard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
          <h1 className='text-[#ff0707] inter-bold'>Java <span>2 Years Experience</span></h1>
@@ -105,7 +105,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/nodejscard-picture.PNG" alt="" className="card-pic"/>
+        <img src="/nodejscard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
          <h1 className='text-[#08b13d] inter-bold'>Node.js <span>1 Year Experience</span></h1>
@@ -115,7 +115,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/mysqlcard-picture.PNG" alt="" className="card-pic"/>
+        <img src="/mysqlcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
          <h1 className='text-[#6b7795] inter-bold'>MySql <span>1 Year Experience</span></h1>
@@ -125,7 +125,7 @@ function TechStack(){
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
     <div className="card-container-img "> 
-        <img src="./public/phpcard-picture.PNG" alt="" className="card-pic"/>
+        <img src="/phpcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
          <h1 className='text-[#6e81b4] inter-bold'>PHP <span>1 Year Experience</span></h1>
