@@ -10,6 +10,7 @@
 }
 
 .project-card{
+    
     @apply bg-[#111111] grid lg:grid-cols-[1fr_1.2fr]
     2xl:h-[525px] 2xl:w-[1179px] 
     xl:h-[470px] xl:w-[1050px]

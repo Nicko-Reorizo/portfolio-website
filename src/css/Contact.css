@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "./animations.css";
+@import "./fonts.css";
+
+
+.Contact-section{
+@apply flex justify-center pt-50 lg:mr-45 lg:ml-45
+    mr-5 ml-5
+    
+}
+
+.contact-card{
+@apply  grid grid-cols-1 lg:grid-cols-2
+}
+.contact-info-container{
+    @apply flex items-center  rounded-l-[10px]
+}
+.contact-info{
+@apply col-span-1 p-10 
+}
+.contact-form{
+    box-shadow: 0px 0px 100px 1px  rgba(105, 0, 255, 0.5);
+@apply col-span-1 rounded-[10px] bg-[#111111]
+}
+
+
+.contact-info p{
+    font-family: Inter-Reg;
+    @apply text-white
+
+}
+
+.contact-info p:nth-child(1){
+    font-family: Inter-Bold;
+    @apply xl:text-6xl block text-4xl 
+}
+.contact-info p:nth-child(2){
+    @apply 2xl:text-lg  pt-5 block pb-10
+}
+.contact-socials{
+    @apply flex space-x-5
+}
+
+.contact-form{
+    @apply  p-10 text-white border border-[#3e3e3e]
+}
+.contact-form div{
+    @apply  px-3 text-white my-3
+}
+.submit-btn{
+    @apply bg-[#6900ff] h-[50px] w-full
+}
+.input-text{
+@apply border border-[#3e3e3e] bg-[#232323] w-full h-[60px] p-5
+}
+
+.contact-form textarea{
+    @apply border border-[#3e3e3e] bg-[#232323] w-full h-[300px] p-5
+}
+form{
+    @apply  grid grid-cols-2
+}

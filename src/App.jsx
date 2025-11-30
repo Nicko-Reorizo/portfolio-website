@@ -5,11 +5,13 @@ import VenomBeam from "./VenomBeam.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Navbar from "./Navbar.jsx";
 import Projects from "./Projects.jsx"
+import Contact from "./Contact.jsx";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { initScrollAnimations } from "./ScrollTrigger.js";
 import './css/main.css';
+
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function App() {
@@ -51,6 +53,9 @@ function App() {
          
           <section id="Projects-Section">
             <Projects/>
+          </section>
+          <section id="Contacts-Section">
+            <Contact/>
           </section>
         </div>
       </div>

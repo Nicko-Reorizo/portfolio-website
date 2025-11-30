@@ -29,7 +29,7 @@ function TechStack(){
 <p className='inter-bold p-animation ts-header inter-bold'>Tech <span className="text-[#6900ff]">Stack</span></p>
 <p className='inter-thin p-animation ts-subheader inter-reg'>These are the languages, frameworks and libraries that I've learned and utilized by making personal projects</p>
 
-<div className="card-section">
+<div className="card-section"> 
 
 <div class="card">
     <div className='absolute bg-[#5023bd] h-[60px] w-1 mt-5 custom-glow'></div>
@@ -37,7 +37,7 @@ function TechStack(){
          <img src="/csscard-picture.PNG" alt="" className="card-pic" />
     </div>
     <div className="card-container-text">
-     <h1 className='text-[#38bdf8] inter-bold'>CSS<span>2 Years Experience</span></h1>
+     <h1 className='text-[#38bdf8] inter-bold'>CSS<span>Styles how things look</span></h1>
     </div>
 </div>
 
@@ -47,7 +47,7 @@ function TechStack(){
         <img src="/htmlcard-picture.PNG" alt="" className="card-pic" />
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#ff4e1d] inter-bold'> HTML <span>2 Years Experience</span></h1>
+         <h1 className='text-[#ff4e1d] inter-bold'> HTML <span>Builds basic webpage parts</span></h1>
          
     </div>
 </div>
@@ -58,7 +58,7 @@ function TechStack(){
         <img src="/javascriptcard-picture.PNG" alt="" className="card-pic" />
      </div>
      <div className="card-container-text">
-        <h1 className='text-[#ffdd25] inter-bold'>Javascript <span>2 Years Experience</span></h1>
+        <h1 className='text-[#ffdd25] inter-bold'>Javascript <span>Makes pages interactive</span></h1>
     </div>
 </div>
 
@@ -68,7 +68,7 @@ function TechStack(){
         <img src="/tailwindcard-picture.PNG" alt="" className="card-pic" />
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#38bdf8] inter-bold'>TailwindCSS <span>1 Year Experience</span></h1>
+         <h1 className='text-[#38bdf8] inter-bold'>TailwindCSS <span>Quickly creates page styles</span></h1>
     </div>
 </div>
 
@@ -78,7 +78,7 @@ function TechStack(){
         <img src="/reactcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#38bdf8] inter-bold'>React <span>1 Year Experience</span></h1>
+         <h1 className='text-[#38bdf8] inter-bold'>React <span>Builds dynamic UI pieces</span></h1>
     </div>
 </div>
  
@@ -88,7 +88,7 @@ function TechStack(){
         <img src="/cppcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#38bdf8] inter-bold'>C++ <span>1 Year Experience</span></h1>
+         <h1 className='text-[#38bdf8] inter-bold'>C++ <span>Runs fast, heavy programs</span></h1>
     </div>
 </div>
 
@@ -98,7 +98,7 @@ function TechStack(){
         <img src="/javacard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#ff0707] inter-bold'>Java <span>2 Years Experience</span></h1>
+         <h1 className='text-[#ff0707] inter-bold'>Java <span>Handles apps and systems</span></h1>
     </div>
 </div>
 
@@ -108,7 +108,7 @@ function TechStack(){
         <img src="/nodejscard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#08b13d] inter-bold'>Node.js <span>1 Year Experience</span></h1>
+         <h1 className='text-[#08b13d] inter-bold'>Node.js <span>Runs JS on the server</span></h1>
     </div>
 </div>
 
@@ -118,7 +118,7 @@ function TechStack(){
         <img src="/mysqlcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#6b7795] inter-bold'>MySql <span>1 Year Experience</span></h1>
+         <h1 className='text-[#6b7795] inter-bold'>MySql <span>Stores and manages data</span></h1>
     </div>
 </div>
 
@@ -128,7 +128,7 @@ function TechStack(){
         <img src="/phpcard-picture.PNG" alt="" className="card-pic"/>
     </div>
     <div className="card-container-text">
-         <h1 className='text-[#6e81b4] inter-bold'>PHP <span>1 Year Experience</span></h1>
+         <h1 className='text-[#6e81b4] inter-bold'>PHP <span>handles data operations</span></h1>
     </div>
 </div>
 </div>
