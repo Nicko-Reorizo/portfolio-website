@@ -23,7 +23,7 @@ function App() {
     ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
-      smooth: 1.2,
+      smooth: 1.5,
       smoothTouch: 0.01,
       effects: true,
     });
