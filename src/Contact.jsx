@@ -9,12 +9,13 @@ return(
             <div className="contact-info-container">
                 <div className="contact-info">
                 
-                 <p>Contact Us</p>
-                 <p>You have a project in mind? Reach out and let’s talk about it. I’m here to listen, collaborate, and turn your ideas into something real and meaningful.</p>
-                 <p className='opacity-80'>Email:</p>
-                 <p className='text-xl'>nickoreorizo14@gmail.com</p>
-                 <p className='opacity-80'>Phone Number:</p>
-                 <p className='text-xl'>09081901800</p>
+                 <p className='contact-header'>Contact Us</p>
+                 <p className='contact-subheader'>You have a project in mind? Reach out and let’s talk about it. I’m here to listen, collaborate, and turn your ideas into something real and meaningful.</p>
+                 
+                
+                
+                  
+                 
                  <p className='pt-10'>Social Links:</p>
                  <div className="contact-socials">
                     

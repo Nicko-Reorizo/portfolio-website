@@ -16,7 +16,7 @@
 @apply lg:text-6xl text-5xl pt-[10vh] text-white text-left md:text-center;
 }
 .ts-subheader{
-    @apply text-[#ffffff82] mt-5 mb-1 lg:text-2xl text-lg  md:text-2xl text-left md:text-center;
+    @apply text-[#ffffff82]  lg:text-2xl text-lg  md:text-2xl text-left md:text-center mt-5 mb-1;
 }
 .p-animation{
     opacity: 0;
@@ -46,12 +46,12 @@
  border-radius: 10px;
  background: #0d0e0d;
  box-shadow: 5px 5px #000000,inset 0 5px 15px rgba(255, 255, 255, 0.065);
- transition: 300ms ease;
+ transition: 100ms ease;
  @apply grid grid-cols-3 col-span-1 md:w-[350px] md:h-[100px] mb-5 md:mb-10 
 }
 .card.show{
     opacity: 1;
-    transition: 800ms ease;
+    transition: 400ms ease;
     transform: translateY(0px);
 }
 
@@ -89,10 +89,10 @@
 }
 .skills-card{
     transform: translateX(-100px);
-    transition: 800ms ease;
+    transition: 300ms ease;
     opacity: 0;
 cursor:pointer;
-transition: 300ms ease;
+
 text-align: left;
 
 margin-bottom: 20px;
@@ -103,7 +103,7 @@ margin-bottom: 20px;
 }
 .skills-card.show{
     transform: translateX(0px);
-    transition: 800ms ease;
+    transition: 400ms ease;
     opacity: 1;
 }
 .skills-card-content{
@@ -118,8 +118,14 @@ margin-bottom: 20px;
 }
 
 
+.card:hover
+{
+    box-shadow: 0px 0 15px 5px rgba(80, 35, 189, 0.6); 
+    transform: translateY(-5px);
 
-
-
-
+}
+.skills-card:hover{
+    box-shadow: 0px 0 15px 5px rgba(80, 35, 189, 0.6); 
+    transform: translateY(-5px);
+}
 

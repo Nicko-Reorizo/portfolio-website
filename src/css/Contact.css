@@ -35,8 +35,10 @@
     @apply xl:text-6xl block text-4xl 
 }
 .contact-info p:nth-child(2){
-    @apply 2xl:text-lg  pt-5 block pb-10
+    @apply text-[#ffffff82]  lg:text-2xl text-lg  md:text-2xl  pt-5 block pb-10
 }
+
+
 .contact-socials{
     @apply flex space-x-5
 }
