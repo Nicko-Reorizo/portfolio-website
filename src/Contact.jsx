@@ -1,6 +1,18 @@
 import './css/Contact.css'
+import { useState } from 'react';
+import  { useEffect } from 'react';
 function Contact(){
+ useEffect(() => {
+    const handlePageShow = () => {
+      document.getElementById("contact-us")?.reset();
+    };
 
+    window.addEventListener("pageshow", handlePageShow);
+
+    return () => {
+      window.removeEventListener("pageshow", handlePageShow);
+    };
+  }, []);
 return(
     <>
     
@@ -27,20 +39,21 @@ return(
             </div>
             </div>
             
-            <div className="contact-form">
-               <form action="POST">
+            <div className="contact-form" >
+               <form action="https://api.web3forms.com/submit" method="POST" name='contact-us' id='contact-us'>
+               <input type="hidden" name="access_key" value="05ed4a1f-ea70-4532-ab3d-01a6ea2390e5"></input>
                 <div className='col-span-2 lg:col-span-1'>
                 <label htmlFor="" className='block '>Full Name <span className='text-[red]'>*</span></label>
-                <input className='input-text' type="text" placeholder='ex: John Doe' required/>
+                <input className='input-text' name="name" type="text" placeholder='ex: John Doe' required/>
                 </div>
                 <div className='col-span-2 lg:col-span-1'>
                 <label htmlFor="" className='block'>Email <span className='text-[red]'>*</span></label>
-                <input type="email" className='input-text' placeholder='ex: Johndoe123@gmail.com' required/>
+                <input type="email" className='input-text' name="email" placeholder='ex: Johndoe123@gmail.com' required/>
                 </div>
 
                 <div className='col-span-2'>
                 <label htmlFor="" className='block'>Message <span className='text-[red]'>*</span></label>
-                <textarea name="" id="" className='resize-none' placeholder='ex: I want a website for my business' required></textarea>
+                <textarea name="message" id="" className='resize-none' placeholder='ex: I want a website for my business' required></textarea>
                 </div>
                 <div className='col-span-2'>
                     <input className='submit-btn' type="submit" value="SUBMIT" />
@@ -50,6 +63,7 @@ return(
 
             </div>
         </div>
+
     </div>
     
     
