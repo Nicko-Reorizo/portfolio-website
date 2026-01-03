@@ -30,7 +30,7 @@ return(<section>
       <div className="green-dot w-[10px] h-[10px] bg-green-500 inline-block rounded-full mb-2 mr-5"></div>
       <p className='inline-block'>Live Website</p>
       </div>
-      <a className="project-btn bg-[#6900ff]">View Site</a>
+      <a className="project-btn bg-[#6900ff]" href='https://voltincons.netlify.app'>View Site</a>
     </div>
  </div>
  </div>
@@ -57,7 +57,7 @@ return(<section>
       <div className="green-dot w-[10px] h-[10px] bg-green-500 inline-block rounded-full mb-2 mr-5"></div>
       <p className='inline-block'>Live Website</p>
       </div>
-      <a className="project-btn bg-[#6900ff]">View Site</a>
+      <a className="project-btn bg-[#6900ff]" href='https://wombags-production.netlify.app'>View Site</a>
     </div>
   </div>
   </div>
@@ -81,7 +81,7 @@ return(<section>
       <div className="green-dot1 w-[10px] h-[10px] bg-red-500 inline-block rounded-full mb-2 mr-5"></div>
       <p className='inline-block'>Video Walktrough</p>
       </div>
-      <a className="project-btn bg-[#6900ff]">View Site</a>
+      <a className="project-btn bg-[#6900ff]" href='https://drive.google.com/file/d/1oJkx0ux8epRMK16vyQ1rlefx4cV1yH9y/view?usp=drive_link'>View Site</a>
     </div>
   </div>
   </div>
@@ -106,7 +106,7 @@ return(<section>
       </div>
       
     
-      <a className="project-btn bg-[#6900ff]">View Site</a>
+      <a className="project-btn bg-[#6900ff]" href='https://digiskillscompetition.my.canva.site/'>View Site</a>
     </div>
   </div>
   </div>
