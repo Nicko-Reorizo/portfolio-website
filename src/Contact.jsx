@@ -31,9 +31,12 @@ return(
                  <p className='pt-10'>Social Links:</p>
                  <div className="contact-socials">
                     
-                 <i class="fa-brands fa-github text-white text-5xl"></i>
-                 <i class="fa-brands fa-linkedin text-white text-5xl"></i>
-                 <i class="fa-brands fa-facebook text-white text-5xl"></i>
+                    <a href="https://github.com/Nicko-Reorizo"><i class="fa-brands fa-github text-white text-5xl"></i></a>
+                    <a href="https://ph.linkedin.com/in/nicko-r-reorizo-15b689326"><i class="fa-brands fa-linkedin text-white text-5xl"></i></a>
+                    <a href="https://www.facebook.com/nicko.reorizo.2024/"><i class="fa-brands fa-facebook text-white text-5xl"></i></a>
+                 
+                 
+                 
                  </div>
                  
             </div>
