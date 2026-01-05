@@ -50,7 +50,6 @@ gsap.from(".Home-nav", {
     trigger: "#About-Section",
     start: "top 50%",
     end: "+=100",
-    scrub: true
   }
 });
 
@@ -59,18 +58,54 @@ ScrollTrigger.create({
   start: "top center",
   end: "bottom center",
   onEnter: () =>
-    gsap.to(".About-nav", { scale: 1.2, x: -10, duration: 0.25 }),
+    gsap.to(".About-nav", { scale: 1.2, x: -10, duration: 0.1 }),
   onLeaveBack: () =>
-    gsap.to(".About-nav", { scale: 1, x: 0, duration: 0.25 })
+    gsap.to(".About-nav", { scale: 1, x: 0, duration: 0.1 })
 });
 
 ScrollTrigger.create({
   trigger: "#TechStack-Section",
   start: "top center",
   end: "bottom center",
-  onEnter: () =>
-    gsap.to(".About-nav", { scale: 1, x: -10, duration: 0.25 }),
-  
+  onEnter: () => {
+    gsap.to(".About-nav", { scale: 1, x: 0, duration: 0.1 });
+    gsap.to(".Tech-nav", { scale: 1.2, x: -10, duration: 0.1 });
+  },
+  onLeaveBack: () => {
+     gsap.to(".About-nav", { scale: 1.2, x: -10, duration: 0.1 });
+     gsap.to(".Tech-nav", { scale: 1, x: 0, duration: 0.1 });
+  }
+   
+});
+
+ScrollTrigger.create({
+  trigger: "#Projects-Section",
+  start: "top center",
+  end: "bottom center",
+  onEnter: () => {
+    gsap.to(".Projects-nav", { scale: 1.2, x: -10, duration: 0.1 });
+    gsap.to(".Tech-nav", { scale: 1, x: 0, duration: 0.1 });
+  },
+  onLeaveBack: () => {
+     gsap.to(".Projects-nav", { scale: 1.0, x: 0, duration: 0.1 });
+     gsap.to(".Tech-nav", { scale: 1.2, x: -10, duration: 0.1 });
+  }
+   
+});
+
+ScrollTrigger.create({
+  trigger: "#Contacts-Section",
+  start: "top center",
+  end: "bottom center",
+  onEnter: () => {
+    gsap.to(".Projects-nav", { scale: 1.0, x: 0, duration: 0.1 });
+    gsap.to(".Contact-nav", { scale: 1.2, x: 0, duration: 0.1 });
+  },
+  onLeaveBack: () => {
+     gsap.to(".Contact-nav", { scale: 1.0, x: 0, duration: 0.1 });
+     gsap.to(".Projects-nav", { scale: 1.2, x: -10, duration: 0.1 });
+  }
+   
 });
 }
 
