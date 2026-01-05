@@ -42,6 +42,36 @@ gsap.from(words, {
     
   }
 });
+
+gsap.from(".Home-nav", {
+  scale: 1.2,
+  x: -10,
+  scrollTrigger: {
+    trigger: "#About-Section",
+    start: "top 50%",
+    end: "+=100",
+    scrub: true
+  }
+});
+
+ScrollTrigger.create({
+  trigger: "#About-Section",
+  start: "top center",
+  end: "bottom center",
+  onEnter: () =>
+    gsap.to(".About-nav", { scale: 1.2, x: -10, duration: 0.25 }),
+  onLeaveBack: () =>
+    gsap.to(".About-nav", { scale: 1, x: 0, duration: 0.25 })
+});
+
+ScrollTrigger.create({
+  trigger: "#TechStack-Section",
+  start: "top center",
+  end: "bottom center",
+  onEnter: () =>
+    gsap.to(".About-nav", { scale: 1, x: -10, duration: 0.25 }),
+  
+});
 }
 
 
