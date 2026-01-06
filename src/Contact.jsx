@@ -59,7 +59,7 @@ return(
                 <textarea name="message" id="" className='resize-none' placeholder='ex: I want a website for my business' required></textarea>
                 </div>
                 <div className='col-span-2'>
-                    <input className='submit-btn' type="submit" value="SUBMIT" />
+                    <input className='submit-btn rounded-[10px]' type="submit" value="SUBMIT" />
                 </div>
                 
                </form>

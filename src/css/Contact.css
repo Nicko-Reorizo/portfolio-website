@@ -53,11 +53,11 @@
     @apply bg-[#6900ff] h-[50px] w-full
 }
 .input-text{
-@apply border border-[#3e3e3e] bg-[#232323] w-full h-[60px] p-5
+@apply border border-[#3e3e3e] bg-[#232323] w-full h-[60px] p-5 rounded-[10px]
 }
 
 .contact-form textarea{
-    @apply border border-[#3e3e3e] bg-[#232323] w-full h-[300px] p-5
+    @apply border border-[#3e3e3e] bg-[#232323] w-full h-[300px] p-5 rounded-[10px]
 }
 form{
     @apply  grid grid-cols-2
