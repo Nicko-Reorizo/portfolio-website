@@ -139,6 +139,6 @@ ScrollTrigger.create({
   end: "bottom top"
 
 });
-
+//
 gsap.utils.toArray()
 
