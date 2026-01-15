@@ -8,7 +8,7 @@ nav{
   animation: slide-down 1s ease-out;
 }
 nav ul{
- @apply  flex flex-col text-right space-y-6 p-3 text-[#ffffff34];
+ @apply  flex flex-col text-right space-y-6 p-3 text-[#ffffff61];
 }
 
 .nav-text{

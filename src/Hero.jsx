@@ -3,7 +3,7 @@ import './css/Hero.css'
 import './css/gradients.css'
 function Hero(props) {
  
-const cvlink = 'https://drive.usercontent.google.com/u/0/uc?id=1GUDvbXIonYQ1fJQKnNYWS1-GrztEBQRy&export=download';
+const cvlink = 'https://drive.google.com/uc?export=download&id=1pjOYpHieiF0QTiaI5bizU2mqXSuZw1jJ';
     const Hero = 
     
         <section className='Hero-Section'>
